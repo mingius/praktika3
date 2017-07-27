@@ -1,0 +1,48 @@
+.block-5{
+  background-image: url("../images/Main/parallax-4.jpg");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+
+  .container {
+    margin-bottom: 50px;
+    text-align: center;
+    .decor-2 {
+      margin: auto;
+      content: '';
+      display: block;
+      height: 2px;
+      width: 35px;
+      margin-top: 50px;
+      background: #ffffff;
+    }
+    .title-2 {
+      h1 {
+        font-size: 400%;
+        font-family: nouvelle;
+        margin-bottom: 50px;
+      }
+
+      a{
+        font-weight: bold;
+        padding: 15px 30px;
+        border: 1px solid #ffffff;
+        text-decoration: none;
+        color: #ffffff;
+        border-radius: 3px;
+      }
+
+      a:hover{
+        padding: 15px 30px;
+        border: 1px solid #ffffff;
+        text-decoration: none;
+        color: #000000;
+        background-color: #ffffff;
+        transition: 0.5s;
+      }
+    }
+  }
+}

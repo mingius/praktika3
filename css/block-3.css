@@ -1,0 +1,45 @@
+.block-3 {
+  color: #ffffff;
+  background-image: url("../images/Main/parallax-1.jpg");
+  min-height: 450px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .block-3 .container {
+    text-align: center; }
+    .block-3 .container .decor {
+      margin: auto;
+      content: '';
+      display: block;
+      height: 2px;
+      width: 35px;
+      margin-top: 50px;
+      background: #cca776; }
+    .block-3 .container .title h1 {
+      margin: 40px 0px;
+      font-family: "Times New Roman";
+      font-weight: bold; }
+    .block-3 .container .logo {
+      width: 100px;
+      height: 100px;
+      border: 2px solid #cca776;
+      border-radius: 100px;
+      margin: auto;
+      display: table; }
+      .block-3 .container .logo i {
+        color: #cca776;
+        display: table-cell;
+        vertical-align: middle; }
+    .block-3 .container .group-title h3 {
+      margin: 40px 0px;
+      font-family: "Times New Roman";
+      font-weight: bold; }
+    .block-3 .container .text {
+      text-align: center;
+      padding-bottom: 40px; }
+      .block-3 .container .text p {
+        font-size: 14px;
+        font-weight: 400; }
+
+/*# sourceMappingURL=block-3.css.map */

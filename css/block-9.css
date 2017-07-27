@@ -1,0 +1,51 @@
+.block-9 {
+  color: #000000;
+  background-color: #ffffff; }
+  .block-9 .container {
+    text-align: center; }
+    .block-9 .container .decor {
+      content: '';
+      margin: auto;
+      display: block;
+      height: 2px;
+      width: 35px;
+      margin-top: 50px;
+      background: #cca776; }
+    .block-9 .container .title h1 {
+      margin: 40px 0px;
+      font-weight: bold;
+      font-family: "Times New Roman"; }
+    .block-9 .container .group-9 {
+      text-align: left;
+      margin-bottom: 50px; }
+      .block-9 .container .group-9 img {
+        max-width: 100%; }
+      .block-9 .container .group-9 .btn-1 {
+        text-decoration: none;
+        color: #000000;
+        text-align: left;
+        font-size: 20px;
+        margin: 60px 0px;
+        font-family: "Times New Roman"; }
+      .block-9 .container .group-9 .btn-1:hover {
+        padding-top: 20px;
+        color: #cca776;
+        transition: all 0.5s ease-in-out; }
+      .block-9 .container .group-9 .mini-btn .btn-2 {
+        text-decoration: none;
+        font-size: 14px;
+        font-family: Arial;
+        color: #cca776; }
+      .block-9 .container .group-9 .mini-btn .btn-2:hover {
+        color: #8c8c8c;
+        transition: all 0.5s ease-in-out; }
+      .block-9 .container .group-9 .mini-btn .btn-3 {
+        text-decoration: none;
+        font-size: 14px;
+        font-family: Arial;
+        color: #8c8c8c; }
+      .block-9 .container .group-9 .mini-btn .btn-3:hover {
+        color: #cca776;
+        transition: all 0.5s ease-in-out; }
+
+/*# sourceMappingURL=block-9.css.map */

@@ -1,0 +1,32 @@
+.block-11 {
+  color: #ffffff;
+  background-color: #181d26; }
+  .block-11 .container {
+    padding: 40px 0px; }
+    .block-11 .container .group-11 {
+      padding: 20px; }
+      .block-11 .container .group-11 h3 {
+        font-family: "Times New Roman"; }
+      .block-11 .container .group-11 p {
+        font-family: Arial; }
+      .block-11 .container .group-11 ul {
+        list-style-type: none; }
+        .block-11 .container .group-11 ul li {
+          padding: 5px; }
+          .block-11 .container .group-11 ul li a {
+            font-size: 14px;
+            color: #cca776;
+            text-decoration: none; }
+          .block-11 .container .group-11 ul li a:hover {
+            color: #ffffff;
+            transition: 0.5s ease-in-out; }
+          .block-11 .container .group-11 ul li p {
+            font-size: 12px;
+            font-family: cursive;
+            color: #8c8c8c; }
+          .block-11 .container .group-11 ul li dl {
+            display: flex; }
+            .block-11 .container .group-11 ul li dl dt {
+              margin-right: 4px; }
+
+/*# sourceMappingURL=block-11.css.map */

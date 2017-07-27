@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+@font-face {
+  font-family: Mermaid;
+  src: url("../fonts/Mermaid1001.ttf"); }
+@font-face {
+  font-family: nouvelle;
+  src: url("../fonts/nouvelle_vague_final.ttf"); }
+body {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff; }
+  body footer {
+    background-color: #141920; }
+    body footer .container {
+      margin-top: 30px;
+      margin-bottom: 30px; }
+      body footer .container .footer-center {
+        top: 50%;
+        text-align: center; }
+        body footer .container .footer-center p {
+          color: #ffffff;
+          margin: 0px; }
+      body footer .container .footer-right ul {
+        float: right;
+        list-style-type: none; }
+        body footer .container .footer-right ul li {
+          display: inline-block; }
+          body footer .container .footer-right ul li a {
+            color: #cca776;
+            padding: 5px; }
+
+/*# sourceMappingURL=style.css.map */

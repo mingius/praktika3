@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=divice-width, initial-sclae=1">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/block-2.css">
+    <link rel="stylesheet" href="css/block-3.css">
+    <link rel="stylesheet" href="css/block-4.css">
+    <link rel="stylesheet" href="css/block-5.css">
+    <link rel="stylesheet" href="css/block-6.css">
+    <link rel="stylesheet" href="css/block-7.css">
+    <link rel="stylesheet" href="css/block-8.css">
+    <link rel="stylesheet" href="css/block-9.css">
+    <link rel="stylesheet" href="css/block-10.css">
+    <link rel="stylesheet" href="css/block-11.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <title>praktika2</title>
+</head>
+<body>
+<header>
+    <!--<div class="row topnav">-->
+        <!--<div id="mySideNav" class="sidenav">-->
+            <!--<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>-->
+            <!--<div class="social">-->
+                <!--<ul>-->
+                    <!--<li><a class="social" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>-->
+                    <!--<li><a class="social" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>-->
+                    <!--<li><a class="social" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>-->
+                    <!--<li><a class="social" href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>-->
+                    <!--<li><a class="social" href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>-->
+                <!--</ul>-->
+            <!--</div>-->
+
+            <!--<div class="contacts">-->
+                <!--<ul>-->
+                <!--<li><i class="fa fa-phone" aria-hidden="true"></i></li>-->
+                <!--<li><a class="phone" href="#">(800) 123-0045</a>;</li>-->
+                <!--<li><a class="phone" href="#">(800) 123-0045</a></li>-->
+                <!--<li><i class="fa fa-clock-o" aria-hidden="true">-->
+                <!--<span>Mn-Fr: 10 am-8 pm</span></i>-->
+                <!--</li>-->
+                <!--</ul>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<span style="font-size: 30px;cursor: pointer" onclick="openNav()">&#9776</span>-->
+    <!--</div>-->
+
+
+    <div class="row topNav"><!--TOP-NAV-->
+        <div id="mySideNav" class="container menu-right sideNav">
+            <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
+            <div class="col-sm-6 col-lg-6 social-left"><!--SOCIAL-->
+                <ul class="top-nav-social">
+                    <li><a class="social" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a class="social" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a class="social" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li><a class="social" href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+                    <li><a class="social" href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                </ul>
+            </div><!--//SOCIAL-->
+
+            <div class="col-sm-6 col-lg-6 social-right"><!--CONTACTS-->
+                <ul class="top-nav-contact">
+                    <li><i class="fa fa-phone" aria-hidden="true"></i></li>
+                    <li><a class="phone" href="#">(800) 123-0045</a>;</li>
+                    <li><a class="phone" href="#">(800) 123-0045</a></li>
+
+                    <li><i class="fa fa-clock-o" aria-hidden="true">
+                        <span>Mn-Fr: 10 am-8 pm</span></i>
+                    </li>
+                </ul>
+            </div><!--//CONTACTS-->
+        </div>
+        <div class="container" onclick="openNav(); myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <!--<span style="font-size: 30px;cursor: pointer" onclick="openNav()">&#9776</span>-->
+    </div><!--//TOP-NAV-->
+
+    <div class="row"><!--NAV-->
+        <div class="container brand-block">
+            <a class="brand" href="#">
+                <img src="images/logo-191x51.png">
+            </a>
+        </div>
+    </div>
+
+    <div class="row nav-bar">
+        <div class="container">
+            <ul class="jr-nav-bar myMenu parent">
+                <li class="jr-nav-bar-btn"><a href="#">HOME</a>
+                    <!--<ul class="child">-->
+                        <!--<li><a href="#">Headers</a>-->
+                            <!--<ul class="child">-->
+                                <!--<li><a href="#">Headers Default</a></li>-->
+                                <!--<li><a href="#">Headers Moders</a></li>-->
+                                <!--<li><a href="#">Headers Minimal</a></li>-->
+                            <!--</ul>-->
+                        <!--</li>-->
+                        <!--<li><a href="#">Footers</a>-->
+                            <!--<ul class="child">-->
+                                <!--<li><a href="#">Footers Corporate</a></li>-->
+                                <!--<li><a href="#">Footers Corporate Light</a></li>-->
+                                <!--<li><a href="#">Footers Minimal</a></li>-->
+                            <!--</ul>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                </li>
+                <li class="jr-nav-bar-btn"><a href="#">PAGES</a></li>
+                <li class="jr-nav-bar-btn"><a href="#">ABOUT US</a></li>
+                <li class="jr-nav-bar-btn"><a href="#">PRACTICES</a></li>
+                <li class="jr-nav-bar-btn"><a href="#">WON CASES</a></li>
+                <li class="jr-nav-bar-btn"><a href="#">NEWS</a></li>
+                <li class="jr-nav-bar-btn"><a href="#">CONTACTS</a></li>
+            </ul>
+        </div>
+    </div><!--//NAV-->
+    </div>
+</header>
+<div class="row">
+    <div class="col-lg-12">
+        <img src="images/Main/slider-1-slide-1-1920x980.jpg">
+    </div>
+</div>
+
+<!--BLOCK-2!-->
+<div class="row block-2">
+    <div class="container">
+        <div class="decor"></div>
+        <div class="col-lg-12 title">
+            <h1>Welcome to Jerry Robinson's Law office</h1>
+        </div>
+        <div class="col-lg-12 text">
+            <p>We're proud that our law firm offers top-notch legal services for a nationwide affordable pricing!</p>
+               <p>With us you'll never feel like the lawyers are just robbers in suits, besides, we win 98% of all cases.So with us, your chances of winning are as high as they possibly can be!</p>
+            <p>are as high as they possibly can be!</p>
+        </div>
+    </div>
+</div>
+<!--//BLOCK-2-->
+<!--BLOCK-3-->
+<div class="row block-3">
+    <div class="container">
+        <div class="decor"></div>
+        <div class="col-lg-12 title">
+            <h1>Why Hiring Us is Always a Winning Move?</h1>
+        </div>
+        <!--GROUP-1-->
+        <div class="col-lg-3">
+            <div class="logo">
+                <i class="fa fa-building-o fa-3x" aria-hidden="true"></i>
+            </div>
+            <div class="group-title">
+                <h3>Any Litigation</h3>
+            </div>
+            <div class="text">
+                <p>It's very hard to name a civil litigation field where our expertise is absent. Starting with Labor &
+                    Employment laws, insurance & personal injuries fields for helping the individuals and finishing with
+                    the real estate law, divorce and child custody laws, we have it all covered...</p>
+            </div>
+        </div>
+
+        <!--GROUP-2-->
+        <div class="col-lg-3">
+            <div class="logo">
+                <i class="fa fa-trophy fa-3x" aria-hidden="true"></i>
+            </div>
+            <div class="group-title">
+                <h3>Winning Streak</h3>
+            </div>
+            <div class="text">
+                <p>Our track record is higher than that of the best MLB pitchers! We've got an amazing percentgae of won
+                    cases, with the mark standing now at over 99%... But these kinds of results were made possible only
+                    thanks to our due diligence, timely efforts and an incredible range of legal wit!</p>
+            </div>
+        </div>
+
+        <!--GROUP-3-->
+        <div class="col-lg-3">
+            <div class="logo">
+                <i class="fa fa-hourglass-o fa-3x" aria-hidden="true"></i>
+            </div>
+            <div class="group-title">
+                <h3>Timely Work</h3>
+            </div>
+            <div class="text">
+                <p>Working with a lot of civil litigation allows us to make some considerable timing shortcuts. That
+                    means that while we never compromise for an attention to case's details, we also never waste your
+                    time idly! Winning ahead of the schedule is our signature move!</p>
+            </div>
+        </div>
+
+        <!--GROUP-4-->
+        <div class="col-lg-3">
+            <div class="logo">
+                <i class="fa fa-thumbs-o-up fa-3x" aria-hidden="true"></i>
+            </div>
+            <div class="group-title">
+                <h3>Affordable Help</h3>
+            </div>
+            <div class="text">
+                <p>On par with such a client-friendly pace of work, we also have another uncompromised advantage -
+                    namely, our reasonable pricing! Keeping in mind that most of our clients are individuals and not
+                    businesses - we keep our fees low!</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--//BLOCK-3-->
+<!--BLOCK-4-->
+<div class="row block-4">
+    <div class="container">
+        <div class="decor"></div>
+        <div class="col-lg-12 title">
+            <h1>Our Legal Practice Areas:</h1>
+        </div>
+
+        <div class="col-lg-4 group-4">
+            <h1>01.</h1>
+            <h3>
+                <a href="#">Labor & Employment Law</a>
+            </h3>
+            <p>We'll be glad to deal with any kind of employment litigation issues, such as unlawful termination,
+                wage hack or discrimination of any kind, which you might have encountered at your workplace...</p>
+        </div>
+
+        <div class="col-lg-4 group-4">
+            <h1>02.</h1>
+            <h3>
+                <a href="#">Real Estate Law</a>
+            </h3>
+            <p>The real property market nuances and the laws regulating it (such as estate taxing, e.g.) are one of
+                our biggest field of work. We will be protecting your best interest whatever the case is!</p>
+        </div>
+
+        <div class="col-lg-4 group-4">
+            <h1>03.</h1>
+            <h3>
+                <a href="#">Personal Injury</a>
+            </h3>
+            <p>We're working with personal injuries, which are basically minor wrongful conduct torts, thus being out
+                of the criminal hearings reach. We will become your defenders in any of such civil litigations cases!</p>
+        </div>
+
+        <div class="col-lg-4 group-4">
+            <h1>04.</h1>
+            <h3>
+                <a href="#">Business Litigation & Arbitration</a>
+            </h3>
+            <p>We'll be glad to deal with any kind of employment litigation issues, such as unlawful termination, wage
+                hack or discrimination of any kind, which you might have encountered at your workplace...</p>
+        </div>
+
+        <div class="col-lg-4 group-4">
+            <h1>05.</h1>
+            <h3>
+                <a href="#">Insurance Law</a>
+            </h3>
+            <p>The insurance marketplace has a lot of restrictions and limitations, which the insurance companies
+                oftentimes try to use as the loopholes for getting away with not paying you. We will change that!</p>
+        </div>
+
+        <div class="col-lg-4 group-4">
+            <h1>06.</h1>
+            <h3>
+                <a href="#">Mergers & Acquisitions</a>
+            </h3>
+            <p>The commercial world of mergers & acquisitions is a harsh one. You'd better have a just as harsh team
+                of sharky lawyers so that your business emerges as the winner in the court!</p>
+        </div>
+    </div>
+</div>
+<!--//BLOCK-4-->
+<!--BLOCK-5-->
+<div class="row block-5">
+    <div class="container">
+        <div class="decor-2"></div>
+        <div class="col-lg-12 title-2">
+            <h1>Sign Up for Your FREE Legal Consultation</h1>
+            <a href="#">BOOK AN APPOINTMENT</a>
+        </div>
+
+    </div>
+</div>
+<!--//BLOCK-5-->
+<!--BLOCK-6-->
+<div class="row block-6">
+    <div class="container">
+        <div class="decor"></div>
+        <div class="col-lg-12 title">
+            <h1>See the Testimonials That Our Clients<br>
+                Have Submitted So Far:</h1>
+        </div>
+        <div class="col-lg-4 group-6">
+            <img src="images/Main/testimonials-1-120x120.jpg">
+            <h1>"</h1>
+            <p>As the one who recently suffered from the FELA (Federal Employers’ Liability Act Claims) related issues,
+                I’ve been desperate to find a firm who could have won my case… Then I found these guys! Finally,
+                3 months later the truth and the law prevailed, all thanks to this firm’s lawyers diligence!
+            </p>
+            <h3>-Daniela Williams
+            </h3>
+        </div>
+
+        <div class="col-lg-4 group-6">
+            <img src="images/Main/testimonials-2-120x120.jpg">
+            <h1>"</h1>
+            <p>Business litigation has always been what our competitors were using to suppress us… But as soon as we’ve
+                hired this law firm, which by the way had fees 5 times lower than the one our competitors paid to their
+                lawyers, we finally had all the disputes resolved in our favor!
+            </p>
+            <h3>-Gary Growles
+            </h3>
+        </div>
+
+        <div class="col-lg-4 group-6">
+            <img src="images/Main/testimonials-3-120x120.jpg">
+            <h1>"</h1>
+            <p>Some time ago our company has gone through a very harsh merger & acquisition process, which left us felt
+                questioning our business partners. But thanks to this law firm, we were finally able to resolve our
+                situation and take our company back!
+            </p>
+            <h3>-Walter Cronkate
+            </h3>
+        </div>
+    </div>
+</div>
+<!--//BLOCK-6-->
+<!--BLOCK-7-->
+<div class="row block-7">
+    <div class="container">
+        <div class="decor"></div>
+        <div class="col-lg-12 title">
+            <h1>Some Of Our Clients</h1>
+        </div>
+
+        <div class="col-lg-2 group-7">
+            <a href="#"><img src="images/Main/brand-1-128x111.png"></a>
+        </div>
+
+        <div class="col-lg-2 group-7">
+            <a href="#"><img src="images/Main/brand-2-129x102.png"></a>
+        </div>
+
+        <div class="col-lg-2 group-7">
+            <a href="#"><img src="images/Main/brand-3-143x110.png"></a>
+        </div>
+
+        <div class="col-lg-2 group-7">
+            <a href="#"><img src="images/Main/brand-4-129x86.png"></a>
+        </div>
+
+        <div class="col-lg-2 group-7">
+            <a href="#"><img src="images/Main/brand-5-142x102.png"></a>
+        </div>
+
+        <div class="col-lg-2 group-7">
+            <a href="#"><img src="images/Main/brand-6-134x122.png"></a>
+        </div>
+    </div>
+</div>
+<!--//BLOCK-7-->
+<!--BLOCK-8-->
+<div class="row block-8">
+    <div class="container">
+        <div class="col-lg-6 block-8-left">
+            <div class="decor"></div>
+            <h1>Winning is easier<br>
+                than you think...</h1>
+            <p>
+                Watch this video, where dozens of our former clients tell, how desperate they were to win their
+                respective case and how slim their chances seemed... before hiring us as their lawyers! That's right,
+                our law firm has the highest wins ratio percentage among all other Houston, Texas legal practices. With
+                us, there's just no other way but to win!
+            </p>
+            <a class="our-cases-btn" href="#">OUR CASES</a>
+        </div>
+        <div class="col-lg-6 block-8-right">
+            <img src="images/Single_post/post-standard-2-1024x682.jpg">
+        </div>
+    </div>
+</div>
+<!--//BLOCK-8-->
+<!--BLOCK-9-->
+<div class="row block-9">
+    <div class="container">
+        <div class="decor"></div>
+        <div class="col-lg-12 title">
+            <h1>Featured News</h1>
+        </div>
+        <div class="col-lg-4 group-9">
+            <img src="images/Main/post-classic-2-418x315.jpg">
+            <a class="btn-1" href="#">Can you be fined with $1600 for missing a license plate decal?</a>
+            <div class="mini-btn">
+                <a class="btn-2" href="#">Jan.20, 2016</a>
+                <a class="btn-3" href="#">by Adam Smith</a>
+            </div>
+        </div>
+
+        <div class="col-lg-4 group-9">
+            <img src="images/Main/post-classic-1-418x315.jpg">
+            <a class="btn-1" href="#">2016 Texas Employment Law Update</a>
+            <div class="mini-btn">
+                <a class="btn-2" href="#">Jan.20, 2016</a>
+                <a class="btn-3" href="#">by Adam Smith</a>
+            </div>
+        </div>
+
+        <div class="col-lg-4 group-9">
+            <img src="images/Main/post-classic-3-418x315.jpg">
+            <a class="btn-1" href="#">What the federal legal consequences of Florida's shooting wlll be?</a>
+            <div class="mini-btn">
+                <a class="btn-2" href="#">Jan.20, 2016</a>
+                <a class="btn-3" href="#">by Adam Smith</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--//BLOCK-9-->
+<!--BLOCK-10-->
+<div class="row block-10">
+    <div class="container">
+        <div class="decor"></div>
+        <div class="col-lg-12 title">
+            <h1>Distinctive Recognition</h1>
+        </div>
+        <div class="group-10">
+            <a href="#">
+                <img src="images/Main/brand-7-134x139.png">
+            </a>
+        </div>
+        <div class="group-10">
+            <a href="#">
+                <img src="images/Main/brand-8-162x83.png">
+            </a>
+        </div>
+        <div class="group-10">
+            <a href="#">
+                <img src="images/Main/brand-9-257x133.png">
+            </a>
+        </div>
+        <div class="group-10">
+            <a href="#">
+                <img src="images/Main/brand-10-115x116.png">
+            </a>
+        </div>
+        <div class="group-10">
+            <a href="#">
+                <img src="images/Main/brand-11-265x62.png">
+            </a>
+        </div>
+    </div>
+</div>
+<!--//BLOCK-10-->
+<!--BLOCK-11-->
+<div class="row block-11">
+    <div class="container">
+
+        <div class="col-lg-3 group-11">
+            <h3>About</h3>
+            <p>Founded by a few seasoned New England lawyers back in 1999, today their small Law firm leads the race
+                among other local firms in a percentage of cases won...But that kind of success comes in only when you
+                input a lot of hard work, dedication, and excellent expertise in what you do...
+            </p>
+        </div>
+
+        <div class="col-lg-3 group-11">
+            <h3>Our Services</h3>
+            <ul>
+                <li><a href="#">Labor & Employment Law</a></li>
+                <li><a href="#">Real Estate Law</a></li>
+                <li><a href="#">Personal Injury</a></li>
+                <li><a href="#">Business litigation & arbitratio</a></li>
+                <li><a href="#">Insurance Law</a></li>
+                <li><a href="#">Mergers & Acquisitions</a></li>
+            </ul>
+        </div>
+
+        <div class="col-lg-3 group-11">
+            <h3>Recent Comments</h3>
+            <ul>
+                <li>
+                    <p class="small-text">Jourdan Saint-Yves on</p>
+                    <a href="#">How Couples Decide To Divorce</a>
+
+                </li>
+                <li>
+                    <p class="small-text">Adam Smith on</p>
+                    <a href="#">How Couples Decide To Divorce</a>
+                </li>
+                <li>
+                    <p class="small-text">Ann Smith onn</p>
+                    <a href="#">What the federal legal consequences of Florida’s shooting wlll be?</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-3 group-11">
+            <h3>Contacts</h3>
+            <ul>
+                <li>
+                    <dl>
+                        <dt>Address:</dt>
+                        <dd>4578 Marmora Road, Glasgow, D04 89GR</dd>
+                    </dl>
+                </li>
+
+                <li>
+                    <dl>
+                        <dt>Phones</dt>
+                        <dd><a href="#">(800) 123-0045</a><dd>;
+                        <dd><a href="#">(800) 123-0045</a></dd>
+                    </dl>
+                </li>
+
+                <li>
+                    <dl>
+                        <dt>E-mail:</dt>
+                        <dd><a href="#">info@demolink.org</a></dd>
+                    </dl>
+                </li>
+
+                <li>
+                    <dl>
+                        <dt>We are open:</dt>
+                        <dd>Mn-Fr: 10 am-8 pm</dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--//BLOCK-11-->
+<footer>
+    <div class="row">
+        <div class="container">
+            <div class="col-lg-4 footer-left">
+                <a href="#">
+                    <img src="images/logo-inverse-191x51.png">
+                </a>
+            </div>
+            <div class="col-lg-4 footer-center">
+                <p>
+                    <span>Lawyer</span>
+                    <span>&#9400</span>
+                    <span>2017.</span>
+                    <span>All rights reserved.</span>
+                </p>
+            </div>
+            <div class="col-lg-4 footer-right">
+                <ul>
+                    <li><a class="social" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a class="social" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a class="social" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li><a class="social" href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+                    <li><a class="social" href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<script>
+    function openNav() {
+        document.getElementById("mySideNav").style.height = "200px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySideNav").style.height = "0";
+    }
+</script>
+
+<script>
+    function myFunction(x) {
+        x.classList.toggle("change");
+    }
+</script>
+</body>
+</html>

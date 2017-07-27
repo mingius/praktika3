@@ -1,0 +1,49 @@
+.block-11{
+  color: #ffffff;
+  background-color: #181d26;
+
+  .container{
+    padding: 40px 0px;
+
+    .group-11{
+      padding: 20px;
+      h3{
+        font-family: "Times New Roman";
+      }
+
+      p{
+        font-family: Arial;
+      }
+      ul{
+        list-style-type: none;
+        li{
+          padding: 5px;
+
+          a{
+            font-size: 14px;
+            color: #cca776;
+            text-decoration: none;
+          }
+          a:hover{
+            color: #ffffff;
+            transition: 0.5s ease-in-out;
+          }
+
+          p{
+            font-size: 12px;
+            font-family: cursive;
+            color: #8c8c8c;
+          }
+
+          dl{
+            display: flex;
+            dt{
+              margin-right: 4px;
+            }
+          }
+
+        }
+      }
+    }
+  }
+}

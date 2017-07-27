@@ -1,0 +1,56 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Mermaid;  src: url('../fonts/Mermaid1001.ttf');
+}
+@font-face {
+  font-family: nouvelle; src: url('../fonts/nouvelle_vague_final.ttf');
+}
+body{
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+
+  footer{
+    background-color: #141920;
+
+    .container{
+
+      margin-top: 30px;
+      margin-bottom: 30px;
+      .footer-left{
+
+        img{
+        }
+      }
+
+      .footer-center{
+        top: 50%;
+        text-align: center;
+        p{
+
+          color: #ffffff;
+          margin: 0px;
+        }
+      }
+
+      .footer-right{
+
+        ul{
+          float: right;
+          list-style-type: none;
+          li{
+            display: inline-block;
+            a {
+              color: #cca776;
+              padding: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.block-2 .container {
+  text-align: center; }
+  .block-2 .container .decor {
+    margin: auto;
+    content: '';
+    display: block;
+    height: 2px;
+    width: 35px;
+    margin-top: 50px;
+    background: #cca776; }
+  .block-2 .container .title h1 {
+    margin: 40px 0px;
+    font-family: "Times New Roman";
+    font-weight: bold; }
+  .block-2 .container .text {
+    text-align: center;
+    padding-bottom: 40px; }
+    .block-2 .container .text p {
+      font-size: 14px;
+      font-weight: 400; }
+
+/*# sourceMappingURL=block-2.css.map */
