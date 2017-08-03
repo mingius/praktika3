@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=divice-width, initial-sclae=1">
     <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/block-1.css">
     <link rel="stylesheet" href="css/block-2.css">
     <link rel="stylesheet" href="css/block-3.css">
     <link rel="stylesheet" href="css/block-4.css">
@@ -18,6 +22,7 @@
     <link rel="stylesheet" href="css/block-10.css">
     <link rel="stylesheet" href="css/block-11.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/slider.css">
     <title>praktika2</title>
 </head>
 <body>
@@ -51,8 +56,8 @@
 
 
     <div class="row topNav"><!--TOP-NAV-->
-        <div id="mySideNav" class="container menu-right sideNav">
-            <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
+        <div id="myTopNav" class="container menu-right TopNav">
+            <a href="javascript:void(0)" class="closeBtn" onclick="closeRightNav()">&times;</a>
             <div class="col-sm-6 col-lg-6 social-left"><!--SOCIAL-->
                 <ul class="top-nav-social">
                     <li><a class="social" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -75,60 +80,194 @@
                 </ul>
             </div><!--//CONTACTS-->
         </div>
-        <div class="container" onclick="openNav(); myFunction(this)">
+
+        <div class="container right-menu-icon" onclick="openRightNav(); myFunction(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
         </div>
-        <!--<span style="font-size: 30px;cursor: pointer" onclick="openNav()">&#9776</span>-->
-    </div><!--//TOP-NAV-->
 
-    <div class="row"><!--NAV-->
+
+        <!--NAV-->
+
+        <div class="container left-menu-icon" onclick="openLeftNav(); myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
         <div class="container brand-block">
             <a class="brand" href="#">
                 <img src="images/logo-191x51.png">
             </a>
         </div>
-    </div>
 
-    <div class="row nav-bar">
-        <div class="container">
-            <ul class="jr-nav-bar myMenu parent">
-                <li class="jr-nav-bar-btn"><a href="#">HOME</a>
-                    <!--<ul class="child">-->
-                        <!--<li><a href="#">Headers</a>-->
-                            <!--<ul class="child">-->
+
+
+            <div id="mySideNav" class="container sideNav">
+                <!--<div id="dropDown-1" class="dropDown dropDown-processed">-->
+                <ul id="dropDown-1" class="jr-nav-bar myMenu dropDown dropDown-processed">
+                    <li class="jr-nav-bar-btn"><a class="dropDown-link" href="#">HOME</a>
+                        <!--<div class="dropDown-container">-->
+                        <!--<ul class="dropDown-container">-->
+                            <!--<li><a href="#">Headers</a>-->
+                            <!--<ul>-->
                                 <!--<li><a href="#">Headers Default</a></li>-->
                                 <!--<li><a href="#">Headers Moders</a></li>-->
                                 <!--<li><a href="#">Headers Minimal</a></li>-->
                             <!--</ul>-->
                         <!--</li>-->
                         <!--<li><a href="#">Footers</a>-->
-                            <!--<ul class="child">-->
-                                <!--<li><a href="#">Footers Corporate</a></li>-->
-                                <!--<li><a href="#">Footers Corporate Light</a></li>-->
-                                <!--<li><a href="#">Footers Minimal</a></li>-->
-                            <!--</ul>-->
+                        <!--<ul>-->
+                        <!--<li><a href="#">Footers Corporate</a></li>-->
+                        <!--<li><a href="#">Footers Corporate Light</a></li>-->
+                        <!--<li><a href="#">Footers Minimal</a></li>-->
+                        <!--</ul>-->
                         <!--</li>-->
-                    <!--</ul>-->
-                </li>
-                <li class="jr-nav-bar-btn"><a href="#">PAGES</a></li>
-                <li class="jr-nav-bar-btn"><a href="#">ABOUT US</a></li>
-                <li class="jr-nav-bar-btn"><a href="#">PRACTICES</a></li>
-                <li class="jr-nav-bar-btn"><a href="#">WON CASES</a></li>
-                <li class="jr-nav-bar-btn"><a href="#">NEWS</a></li>
-                <li class="jr-nav-bar-btn"><a href="#">CONTACTS</a></li>
-            </ul>
-        </div>
-    </div><!--//NAV-->
-    </div>
-</header>
-<div class="row">
-    <div class="col-lg-12">
-        <img src="images/Main/slider-1-slide-1-1920x980.jpg">
-    </div>
-</div>
+                        <!--</ul>-->
+                        <!--</div>-->
+                    </li>
+                    <li class="jr-nav-bar-btn"><a href="#">PAGES</a></li>
+                    <li class="jr-nav-bar-btn"><a href="#">ABOUT US</a></li>
+                    <li class="jr-nav-bar-btn"><a href="#">PRACTICES</a></li>
+                    <li class="jr-nav-bar-btn"><a href="#">WON CASES</a></li>
+                    <li class="jr-nav-bar-btn"><a href="#">NEWS</a></li>
+                    <li class="jr-nav-bar-btn"><a href="#">CONTACTS</a></li>
+                </ul>
+                <!--</div>-->
+            </div>
 
+    </div><!--//TOP-NAV-->
+
+
+</header>
+<!--BLOCK-1-->
+<div class="row block-1">
+    <!--<div class="col-lg-12">-->
+        <!--<img src="images/Main/slider-1-slide-1-1920x980.jpg">-->
+    <!--</div>-->
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/Main/slider-1-slide-1-1920x980.jpg" alt="Los Angeles" style="width:100%;">
+                <div class="hero">
+                <div class="decor"></div>
+                <h3>Professional Lawyer</h3>
+                <h1>Jerry Robinson</h1>
+                <a class="btn btn-hero btn-lg" href="#">MORE INFO</a>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/Main/slider-1-slide-2-1920x980.jpg" alt="Chicago" style="width:100%;">
+                <div class="hero">
+                <div class="decor"></div>
+                <h2>We're Always Available for Customers with
+                Emergent Lawyer Problems.</h2>
+                <h5>You can easily reach us 24/7 via the phone number below:n</h5>
+                <dl>
+                <dt>Tel:</dt>
+                <dt><a href="#">1.555.123.2323</a></dt>
+                </dl>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/Main/slider-1-slide-3-1920x980.jpg" alt="New york" style="width:100%;">
+                <div class="hero">
+                <div class="decor"></div>
+                <h1>Appointment</h1>
+                <h5>Booking an appointment at our law firm is as easy as it gets...
+                    You will be able to schedule a convenient time for your meeting with our lawyers with just 2
+                    clicks!</h5>
+                <a class="btn btn-hero btn-lg" href="#">BOOK AND APPOINTMENT</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!--<div class="carousel fade-carousel slide carousel-fade" data-ride="carousel" data-interval="4000" id="bs-carousel">-->
+
+        <!--&lt;!&ndash;Indicators&ndash;&gt;-->
+        <!--<ol class="carousel-indicators">-->
+            <!--<li data-target="#bs-carousel" data-slide-to="0" class="active"></li>-->
+            <!--<li data-target="#bs-carousel" data-slide-to="1"></li>-->
+            <!--<li data-target="#bs-carousel" data-slide-to="2"></li>-->
+        <!--</ol>-->
+
+        <!--&lt;!&ndash;SLIDER&ndash;&gt;-->
+        <!--<div class="carousel-inner">-->
+            <!--<div class="item slides active">-->
+                <!--<div class="slide-1">-->
+                    <!--<div class="overlay"></div>-->
+                <!--</div>-->
+                <!--<div class="hero">-->
+                    <!--<div class="decor"></div>-->
+                    <!--<h3>Professional Lawyer</h3>-->
+                    <!--<h1>Jerry Robinson</h1>-->
+                    <!--<a class="btn btn-hero btn-lg" href="#">MORE INFO</a>-->
+                <!--</div>-->
+
+                <!--<div class="item slides">-->
+                    <!--<div class="slide-2">-->
+                        <!--<div class="overlay"></div>-->
+                    <!--</div>-->
+                    <!--<div class="hero">-->
+                        <!--<div class="decor"></div>-->
+                        <!--<h2>We're Always Available for Customers with-->
+                            <!--Emergent Lawyer Problems.</h2>-->
+                        <!--<h4>Jerry Robinson</h4>-->
+                        <!--<dl>-->
+                            <!--<dt>Tel:</dt>-->
+                            <!--<dt><a href="#">1.555.123.2323</a></dt>-->
+                        <!--</dl>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+                <!--<div class="item slides">-->
+                    <!--<div class="slider-3">-->
+                        <!--<div class="overlay"></div>-->
+                    <!--</div>-->
+                    <!--<div class="hero">-->
+                        <!--<div class="decor"></div>-->
+                        <!--<h3>Professional Lawyer</h3>-->
+                        <!--<h1>Jerry Robinson</h1>-->
+                        <!--<a class="btn btn-hero btn-lg" href="#">MORE INFO</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<a class="left carousel-control" href="#myCarousel" data-slide="prev">-->
+            <!--<span class="glyphicon glyphicon-chevron-left"></span>-->
+            <!--<span class="sr-only">Previous</span>-->
+        <!--</a>-->
+        <!--<a class="right carousel-control" href="#myCarousel" data-slide="next">-->
+            <!--<span class="glyphicon glyphicon-chevron-right"></span>-->
+            <!--<span class="sr-only">Next</span>-->
+        <!--</a>-->
+    <!--</div>-->
+</div>
+<!--//BLOCK-1-->
 <!--BLOCK-2!-->
 <div class="row block-2">
     <div class="container">
@@ -565,12 +704,12 @@
     </div>
 </footer>
 <script>
-    function openNav() {
-        document.getElementById("mySideNav").style.height = "200px";
+    function openRightNav() {
+        document.getElementById("myTopNav").style.height = "200px";
     }
 
-    function closeNav() {
-        document.getElementById("mySideNav").style.height = "0";
+    function closeRightNav() {
+        document.getElementById("myTopNav").style.height = "0";
     }
 </script>
 
@@ -579,5 +718,39 @@
         x.classList.toggle("change");
     }
 </script>
+
+<script>
+    function openLeftNav() {
+        document.getElementById("mySideNav").style.width = "200px";
+    }
+
+    function closeLeftNav() {
+        document.getElementById("mySideNav").style.width = "0";
+    }
+</script>
+
+<script>
+    $(document).ready(function(){
+
+        $('ul.dropDown').each(function() {
+            var $dropDown = $(this);
+
+            $("a.dropDown-link", $dropDown).click(function(e) {
+                e.preventDefault();
+                $ul = $("ul.dropDown-container", $dropDown);
+                $ul.toggle();
+                $("ul.dropDown-container").not($ul).hide();
+                return false;
+            });
+
+        });
+
+        $('html').click(function(){
+            $("ul.dropDown-container").hide();
+        });
+
+    });
+</script>
+
 </body>
 </html>
